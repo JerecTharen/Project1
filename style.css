@@ -1,0 +1,18 @@
+.navBar {
+    position: fixed;
+    top: 0px;
+}
+.makeFirstLower {
+    position: relative;
+    top: 1em;
+}
+.makeLeft {
+    float: left;
+}
+.makeRight {
+    float: right;
+}
+.contactBorders {
+    border-style: solid;
+    margin: 1em;
+}
