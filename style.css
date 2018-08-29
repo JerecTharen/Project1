@@ -12,7 +12,8 @@
 .makeRight {
     float: right;
 }
-.contactBorders {
+.locationBorders {
     border-style: solid;
     margin: 1em;
+    padding: 1em;
 }
