@@ -4,6 +4,7 @@
     background-color: yellow;
     z-index: 9001;
     height: 1.75em;
+    width: 100%;
     border-radius: .2em .2em .2em .2em;
 }
 .makeFirstLower {
@@ -11,10 +12,10 @@
     top: 1em;
 }
 .makeLeft {
-    float: left;
+
 }
 .makeRight {
-    float: right;
+
 }
 .locationBorders {
     border-style: solid;
@@ -25,7 +26,9 @@ body {
     background-color: red;
 }
 .container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 div[class="navBar"]>:visited {
     color: black;
@@ -37,11 +40,29 @@ div[class="navBar"]>a {
     padding: .2em;
     border-radius: 30%;
     font-size: larger;
+    align-self: center;
 }
 [class*="Menu"] {
     background-color: #ff8a16;
 }
 #indexContainer {
-    flex: 1;
-    align-items: center;
+
+}
+table {
+    text-align: center;border-collapse: collapse;
+}
+td,th{
+    border-style: solid;
+    padding: .2em;
+}
+
+table p {
+    margin: 0;
+}
+table caption {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.locationMakeCenter {
+    align-self: center;
 }
