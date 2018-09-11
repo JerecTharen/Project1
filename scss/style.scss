@@ -1,0 +1,28 @@
+$my-color: #dadfea;
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: .5em;
+  margin: .25em;
+}
+.map {
+  height: 500px;
+  width: 500px;
+}

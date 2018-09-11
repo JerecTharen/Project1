@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "My Rockey Burgers Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello World\"",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerecTharen/Project1.git"
+  },
+  "author": "Jacob Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JerecTharen/Project1/issues"
+  },
+  "homepage": "https://github.com/JerecTharen/Project1#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
