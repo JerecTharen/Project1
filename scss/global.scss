@@ -1,0 +1,29 @@
+$darkPink: #f05054;
+$myBrown: #402f23;
+$myRed: #75292a;
+$lightPink: #ff7f7f;
+$myYellow: #efa436;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: .5em;
+  margin: .25em;
+}
