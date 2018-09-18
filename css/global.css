@@ -1,0 +1,40 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto; }
+
+body {
+  display: flex;
+  margin-bottom: 5em;
+  background-color: #75292a;
+  color: #120d0a; }
+
+.container {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 3em; }
+
+.makeFixed {
+  position: fixed; }
+
+nav.makeFixed {
+  background-color: #da9632;
+  height: 9%; }
+
+nav a {
+  text-decoration: none;
+  color: #120d0a; }
+
+nav {
+  width: 100%; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0; }
+
+nav ul li {
+  padding: .5em;
+  margin: .25em; }

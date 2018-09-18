@@ -4,3 +4,52 @@
   height: 500px;
   width: 500px;
 }
+nav img {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+}
+nav ul li:first-child {
+  width: 1%;
+}
+div.mainContent {
+  display: flex;
+  flex-direction: column;
+  background-color: $lightPink;
+  padding: 5em 3em 1em 3em;
+  border-radius: 5em;
+}
+div.mainContent img {
+  width: 75%;
+  margin: auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.makeCenter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  div {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+#answer1, #answer2 {
+  display: none;
+}
+.faqDiv {
+  display: flex;
+  margin: 2em 0;
+  .btn {
+    height: 2em;
+    margin-left: 1em;
+    align-self: center;
+    background-color: $darkPink;
+    border-radius: 2em;
+  }
+}
