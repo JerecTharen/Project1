@@ -3,6 +3,10 @@ $myBrown: #120d0a;
 $myRed: #75292a;
 $lightPink: #ff7f7f;
 $myYellow: #da9632;
+$darkerYellow: #c4872d;
+$roboFont: 'Roboto', sans-serif;
+$rightFont: 'Righteous', cursive;
+$comfortFont: 'Comfortaa', cursive;
 
 html, body {
   padding: 0;
@@ -15,6 +19,7 @@ body {
   margin-bottom: 5em;
   background-color: $myRed;
   color: $myBrown;
+  font-family: $roboFont;
 }
 .container {
   margin: auto;
@@ -37,13 +42,29 @@ nav a {
 
 nav {
   width: 100%;
+  font-family: $comfortFont;
 }
 nav ul {
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  height: 100%;
 }
 nav ul li {
-  padding: .5em;
-  margin: .25em;
+  //padding: .5em;
+  //margin: .25em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+nav ul li:hover {
+  background-color: $darkerYellow;
+}
+nav img {
+  height: 5em;
 }

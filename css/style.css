@@ -8,7 +8,8 @@ body {
   display: flex;
   margin-bottom: 5em;
   background-color: #75292a;
-  color: #120d0a; }
+  color: #120d0a;
+  font-family: "Roboto", sans-serif; }
 
 .container {
   margin: auto;
@@ -28,31 +29,34 @@ nav a {
   color: #120d0a; }
 
 nav {
-  width: 100%; }
+  width: 100%;
+  font-family: "Comfortaa", cursive; }
 
 nav ul {
   list-style: none;
   display: flex;
-  padding: 0; }
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  height: 100%; }
 
 nav ul li {
-  padding: .5em;
-  margin: .25em; }
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center; }
+
+nav ul li:hover {
+  background-color: #c4872d; }
+
+nav img {
+  height: 5em; }
 
 .map {
   height: 500px;
   width: 500px; }
-
-nav img {
-  height: 100%; }
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  height: 5em; }
-
-nav ul li:first-child {
-  width: 1%; }
 
 div.mainContent {
   display: flex;
@@ -61,6 +65,9 @@ div.mainContent {
   padding: 5em 3em 1em 3em;
   border-radius: 5em; }
 
+h1, h2, h3 {
+  font-family: "Righteous", cursive; }
+
 div.mainContent img {
   width: 75%;
   margin: auto; }
@@ -68,6 +75,10 @@ div.mainContent img {
 header nav {
   display: flex;
   justify-content: space-between; }
+  header nav a:hover {
+    background-color: #f05054;
+    border-radius: .5em;
+    padding: .2em; }
 
 .makeCenter {
   width: 100%;
@@ -76,6 +87,15 @@ header nav {
   .makeCenter div {
     width: 50%;
     margin: 0 auto; }
+
+.menuBorder, form, #answer1, #answer2 {
+  border: solid 0.25em #120d0a;
+  background-color: #f05054;
+  border-radius: .5em; }
+
+form {
+  padding: .5em;
+  width: 30%; }
 
 #answer1, #answer2 {
   display: none; }

@@ -4,23 +4,16 @@
   height: 500px;
   width: 500px;
 }
-nav img {
-  height: 100%;
-}
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  height: 5em;
-}
-nav ul li:first-child {
-  width: 1%;
-}
+
 div.mainContent {
   display: flex;
   flex-direction: column;
   background-color: $lightPink;
   padding: 5em 3em 1em 3em;
   border-radius: 5em;
+}
+h1, h2, h3 {
+  font-family: $rightFont;
 }
 div.mainContent img {
   width: 75%;
@@ -29,6 +22,11 @@ div.mainContent img {
 header nav {
   display: flex;
   justify-content: space-between;
+  a:hover {
+    background-color: $darkPink;
+    border-radius: .5em;
+    padding: .2em;
+  }
 }
 .makeCenter {
   width: 100%;
@@ -39,8 +37,20 @@ header nav {
     margin: 0 auto;
   }
 }
+.menuBorder {
+  border: solid .25em $myBrown;
+  background-color: $darkPink;
+  border-radius: .5em;
+}
+form {
+  padding: .5em;
+  width: 30%;
+  @extend .menuBorder;
+}
 #answer1, #answer2 {
   display: none;
+  @extend .menuBorder;
+
 }
 .faqDiv {
   display: flex;
