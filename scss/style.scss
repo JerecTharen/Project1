@@ -61,10 +61,41 @@ form {
     height: 2em;
     margin-left: 1em;
     align-self: center;
-    background-color: $darkPink;
+    @extend .menuBorder;
     border-radius: 2em;
   }
 }
 article {
   @extend .menuBorder;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: smaller;
+  }
+  h1, h2, h3 {
+    font-size: small;
+  }
+  nav {
+    font-size: x-small;
+    ul li {
+      margin: .1em;
+    }
+    img {
+      height: 2em;
+    }
+  }
+  header nav {
+    justify-content: flex-start;
+  }
+  .makeCenter div {
+    margin: 0;
+  }
+  .menuBorder {
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+    height: 100%;
+  }
 }
